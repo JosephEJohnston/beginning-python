@@ -30,7 +30,7 @@ name = input('Name: ')
 request = input('Phone number (p) or address (a)? ')
 
 # 使用正确的键：
-key = request # 如果 request 既不是 'p' 也不是 'a'
+key = request  # 如果 request 既不是 'p' 也不是 'a'
 if request == 'p':
     key = 'phone'
 if request == 'a':
